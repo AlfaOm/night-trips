@@ -1,0 +1,44 @@
+@include font("Larsseit", "Larsseit-Regular", "400", "normal");
+@include font("Noe-Display", "Noe-Display-Bold", "700", "normal");
+@include font("Larsseit", "Larsseit-Light", "300", "normal");
+@include font("Larsseit", "Larsseit-Bold", "700", "normal");
+
+@font-face {
+  font-family: "Larsseit";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("../fonts/Larsseit-Regular.woff2") format("woff2"),
+    url("../fonts/Larsseit-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Larsseit";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("../fonts/Larsseit-Bold.woff2") format("woff2"),
+    url("../fonts/Larsseit-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Larsseit";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("../fonts/Larsseit-Light.woff2") format("woff2"),
+    url("../fonts/Larsseit-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noe-Display";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url("../fonts/Noe-Display-Bold.woff2") format("woff2"),
+    url("../fonts/Noe-Display-Bold.woff") format("woff");
+}

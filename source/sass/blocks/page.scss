@@ -1,0 +1,29 @@
+.page {
+  margin: 0 auto;
+  position: relative;
+  min-width: 1920px;
+  min-height: 100%;
+  padding-left: 250px;
+  padding-right: 279px;
+  background-color: #011627;
+  z-index: -3;
+
+}
+
+.page__wrapper-content {
+  position: relative;
+
+}
+
+.page__wrapper-content::before {
+  content: "";
+  position: absolute;
+  top: -350px;
+  min-width: 100%;
+  height: 2963px;
+  background-image: url("../../img/bg-lights-main.png");
+  background-repeat: no-repeat;
+  // background-position: 50% 50%;
+  background-size: cover;
+  z-index: 3;
+}

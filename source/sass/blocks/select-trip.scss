@@ -1,0 +1,12 @@
+.select-trip {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 250px;
+  padding-right: 279px;
+  // width: 1355px;
+}
+
+.select-trip::before {
+  content: "";
+  position: absolute;
+}

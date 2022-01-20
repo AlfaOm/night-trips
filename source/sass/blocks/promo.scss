@@ -1,0 +1,70 @@
+.promo {
+  position: relative;
+  top: 0px;
+  margin: 0 auto;
+  padding-top: 116px;
+  // padding-left: 250px;
+  // padding-right: 279px;
+  min-height: 1194px;
+}
+
+.promo__wrapper {
+  margin: 0 auto;
+  padding-right: 630px;
+  padding-left: 630px;
+  text-align: center;
+}
+
+.promo::before {
+  content: "";
+  position: absolute;
+  top: -160px;
+  // width: 1920px;
+  min-width: 100%;
+  height: 1194px;
+  background-image: url("../img/bg-header.png");
+  background-size: cover;
+  z-index: -1;
+}
+
+.promo::after {
+  content: "";
+  position: absolute;
+  bottom: 160px;
+  // width: 1920px;
+  min-width: 100%;
+  height: 377px;
+  z-index: 1;
+  background-image: url("../img/gradient-transition.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.promo_title {
+  margin-bottom: 34px;
+}
+
+.promo_sub-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  font-family: "Larsseit", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+.promo_text {
+  margin: 0;
+  padding: 0;
+  max-width: 643px;
+  font-family: "Larsseit", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}

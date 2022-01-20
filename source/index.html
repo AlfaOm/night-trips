@@ -1,15 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.min.css" />
   <title>Night Trips</title>
 </head>
-<body>
-  <header></header>
-  <main></main>
-  <footer></footer>
-<scrip></scrip>
+
+<body class="page">
+  @@include('_header.html')
+  <main>
+    <section class="promo">
+      <div class="promo__wrapper">
+        <h1 class="promo_title heading heading__primary">Night Trips</h1>
+        <p class="promo_sub-heading">We got trips for the trippster in you</p>
+        <p class="promo_text">Neque, eros commodo, nascetur ullamcorper vitae. Tincidunt ut&nbsp;venenatis, volutpat lorem ut&nbsp;faucibus mauris, quisque. Integer gravida sed quis congue. Vel risus, arcu a viverra leo id&nbsp;pulvinar
+          ultricies.
+          Enim in&nbsp;in&nbsp;pulvinar nulla sollicitudin. Ullamcorper.</p>
+      </div>
+    </section>
+    <div class="page__wrapper-content">
+      <section class="select-trip">
+        <h2 class="select-trip_heading heading heading__secondary">Pick your trip</h2>
+        <span>X</span>
+        <p class="select-trip__about">Our team put together some trips to&nbsp;you to&nbsp;discover, feel free to&nbsp;discover each of them.</p>
+        <div class="select-trip__wrapper-list">
+          <div class="select-trip__list-link">
+            <ul class="trip-list">
+              <li class="trip-list__item"><a class="trip-list__link trip-list__link--active" href="#chill-adventure">Chill Adventure</a></li>
+              <li class="trip-list__item"><a class="trip-list__link" href="#spooky-times">Spooky Times</a></li>
+              <li class="trip-list__item"><a class="trip-list__link" href="#desert-madness">Desert Madness</a></li>
+              <li class="trip-list__item"><a class="trip-list__link" href="#out-in-the-wild">Out in the wild</a></li>
+            </ul>
+          </div>
+          <div class="card-trip">
+            <article class="card-trip__list">
+              <div class="card-trip__wrapper-image">
+                <ol class="card-trip-image__list">
+                  <li class="card-trip-image__item">
+                    <img src="#" alt="Grand dunes landscape" class="card-trip__image" width="486" height="607">
+                    <p class="card-trip__title-image">Grand dunes landscape</p>
+                  </li>
+                </ol>
+                <button class="button-go button-go__previous">Prev</button>
+                <button class="button-go button-go__forward">Forward</button>
+              </div>
+              <div class="card-trip__description">
+                <h3 class="card-trip__title heading heading__secondary">Chill Adventure</h3>
+                <p class="card-trip__text">
+                  <b>Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id&nbsp;fringilla arcu condimentum fames.</b>
+                </p>
+                <p class="card-trip__text">Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut&nbsp;sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam
+                  consectetur lectus id&nbsp;quis tortor vel, mattis.
+                </p>
+                <a href="#" class="button">See our latest offer</a>
+                <div class="social social-wrapper">
+                  <ul class="social-list">
+                    <li class="social-item"><a href="#">Instagram</a></li>
+                    <li class="social-item"><a href="#">Facebook</a></li>
+                    <li class="social-item"><a href="#">Twitter</a></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__wrapper-description">
+          <h2 class="about__title heading heading__secondary">About Us</h3>
+            <p class="about__text">
+              <b>We’re a team of four passioned people.</b>
+            </p>
+            <p class="about__text">We’re&nbsp;ready to&nbsp;take the world by&nbsp;storm and let you find new travel opportunities.</p>
+            <p class="about__text">Our everyday task is&nbsp;to&nbsp;make sure that you satisfied with the services and products that we&nbsp;provide.</p>
+            <p class="about__text">
+              <b>With 💖 from Amsterdam, Netherlands.</b>
+            </p>
+            <a href="#" class="button">Read more about us</a>
+        </div>
+        <div class="about__wrapper-image">
+          <img src="img/man.png" width="395" height="395" alt="Man">
+          <img src="img/afro.png" width="395" height="395" alt="Afrogirl">
+          <img src="img/device.png" width="395" height="395" alt="Girl with device">
+          <img src="img/blond.png" width="395" height="395" alt="Girl blond">
+        </div>
+      </section>
+      <section class="responce">
+        <h2 class="heading heading__secondary">People’s thoughts</h2>
+        <p class="responce__subtitle">See what are others saying</p>
+        <ul class="responce__list">
+          <li class="responce__item">
+            <blockquote>Elementum mi&nbsp;felis, sit velit lobortis ultricies non. Mattis enim, nisl</blockquote>
+            <p class="responce__text">adipiscing natoque diam et. Cum posuere in&nbsp;velit massa sagittis augue egestas. Eu&nbsp;sollicitudin et&nbsp;quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.</p>
+            <img class="responce__user-foto" src="img/judy-roseless.jpg" alt="user-foto" width="80" height="80">
+            <p class="responce__user-name">Judy Roseless</p>
+            <p class="responce__user-job">Marketing head at rom.</p>
+          </li>
+          <li class="responce__item">
+            <blockquote>Elementum mi&nbsp;felis, sit velit lobortis ultricies non. Mattis enim, nisl</blockquote>
+            <p class="responce__text">adipiscing natoque diam et. Cum posuere in&nbsp;velit massa sagittis augue egestas. Eu&nbsp;sollicitudin et&nbsp;quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.</p>
+            <img class="responce__user-foto" src="img/judy-roseless.jpg" alt="user-foto" width="80" height="80">
+            <p class="responce__user-name">Judy Roseless</p>
+            <p class="responce__user-job">Marketing head at rom.</p>
+          </li>
+          <li class="responce__item">
+            <blockquote>Elementum mi&nbsp;felis, sit velit lobortis ultricies non. Mattis enim, nisl</blockquote>
+            <p class="responce__text">adipiscing natoque diam et. Cum posuere in&nbsp;velit massa sagittis augue egestas. Eu&nbsp;sollicitudin et&nbsp;quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.</p>
+            <img class="responce__user-foto" src="img/judy-roseless.jpg" alt="user-foto" width="80" height="80">
+            <p class="responce__user-name">Judy Roseless</p>
+            <p class="responce__user-job">Marketing head at rom.</p>
+          </li>
+          <li class="responce__item">
+            <blockquote>Elementum mi&nbsp;felis, sit velit lobortis ultricies non. Mattis enim, nisl</blockquote>
+            <p class="responce__text">adipiscing natoque diam et. Cum posuere in&nbsp;velit massa sagittis augue egestas. Eu&nbsp;sollicitudin et&nbsp;quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.</p>
+            <img class="responce__user-foto" src="img/judy-roseless.jpg" alt="user-foto" width="80" height="80">
+            <p class="responce__user-name">Judy Roseless</p>
+            <p class="responce__user-job">Marketing head at rom.</p>
+          </li>
+        </ul>
+        <h2 class="heading heading__secondary">See you soon!</h2>
+        <p class="responce__text-end">We&nbsp;hope to&nbsp;meet each other very soon.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <section class="footer-about">
+      <ul class="footer-about__list">
+        <li class="footer-about__item"><a href="#">Our Mission</a></li>
+        <li class="footer-about__item"><a href="#">Terms</a></li>
+        <li class="footer-about__item"><a href="#">Copyrights</a></li>
+      </ul>
+    </section>
+    <section class="footer-faq">
+      <ul class="footer-faq__list">
+        <li class="footer-faq__item"><a href="#">Rules</a></li>
+        <li class="footer-faq__item"><a href="#">Tickets</a></li>
+        <li class="footer-faq__item"><a href="#">Editions</a></li>
+        <li class="footer-faq__item"><a href="#">Contribute</a></li>
+      </ul>
+    </section>
+    <section class="footer-events">
+      <ul class="footer-events__list">
+        <li class="footer-events__item"><a href="">Star Gazing</a></li>
+        <li class="footer-events__item"><a href="">Desert Mania</a></li>
+        <li class="footer-events__item"><a href="">Dunes Madness</a></li>
+        <li class="footer-events__item"><a href="">Spooky Land</a></li>
+      </ul>
+    </section>
+    <section class="footer-contact">
+      <a class="footer-contact__email" href="hello@example.com">hello@example.com</a><br>
+      <a class="footer-contact__phone" href="tel:+74055550128">(405) 555-0128</a><br>
+      <a class="footer-contact__phone" href="tel:+72525550126">(252) 555-0126</a><br>
+    </section>
+    <section class="footer-social">
+      <ul class="social-list">
+        <li class="social-item"><a href="#">Instagram</a></li>
+        <li class="social-item"><a href="#">Facebook</a></li>
+        <li class="social-item"><a href="#">Twitter</a></li>
+      </ul>
+    </section>
+    <div class="footer-copyright__wrapper">
+      <p class="footer-copyright__text">Copyright © Night Trips 2019. All rights reserved.</p>
+    </div>
+    <div class="footer-logo">
+      <img src="img/logo.svg" width="57" height="27" alt="logotype">
+    </div>
+  </footer>
+  <script src="js/script.min.js"></script>
 </body>
+
 </html>
